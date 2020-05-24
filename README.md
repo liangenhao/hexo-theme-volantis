@@ -1,5 +1,14 @@
 # Volantis
 
+### Fork
+
+> 本Fork项目用于后续主题的升级。
+
+- `master`分支对应[源项目](https://github.com/liangenhao/hexo-theme-volantis)的`master`分支，并定期PR同步最新版本。
+- 新增`customize_版本号`分支，用来保存不同版本自定义修改的内容。
+
+
+
 A Wonderful Theme for Hexo
 
 > see docs at: https://volantis.js.org
