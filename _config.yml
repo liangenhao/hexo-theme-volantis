@@ -105,23 +105,21 @@ cover:
   subtitle: 'Later equals never'
   search: # search bar placeholder
   features:
-    - name: 文档
-      icon: fas fa-book
-      url: https://volantis.js.org/getting-started/
-    - name: 博文
-      icon: fas fa-rss
-      url: https://volantis.js.org/archives/
-    - name: 示例
-      icon: fas fa-play-circle
-      url: https://volantis.js.org/examples/
-    - name: 源码
-      icon: fas fa-file-code
-      url: https://github.com/xaoxuu/hexo-theme-volantis/
-      rel: external nofollow noopener noreferrer
-      target: _blank
-    - name: 鸣谢
-      icon: fas fa-handshake
-      url: https://volantis.js.org/contributors/
+    - name: 首页
+      icon: fas fa-home
+      url: /
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fas fa-folder-open
+      url: tags/
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
 
 
 # Navigation Bar
@@ -133,7 +131,7 @@ navbar:
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
     - name: 博客
-      icon: fas fa-rss
+      icon: fas fa-book
       url: /
     - name: 分类
       icon: fas fa-folder-open
@@ -191,7 +189,7 @@ meta:
   author:
     avatar: https://portrait.gitee.com/uploads/avatars/user/509/1528373_liangenhao_1590301253.png
     name: enhao
-    url: http://liangenhao.gitee.io
+    url: https://liangenhao.gitee.io
   # 文章创建日期
   date:
     icon: fas fa-calendar-alt
@@ -369,6 +367,8 @@ footer:
       url: mailto:liangenhao@hotmail.com
     - icon: fab fa-github
       url: https://github.com/liangenhao
+    - icon: fab fa-weibo
+      url: https://weibo.com/u/2165970150 
     - icon: fas fa-headphones-alt
       url: https://music.163.com/#/user/home?id=261817684
   copyright: '[Copyright © 2017-2020 enhao](https://liangenhao.gitee.io)'
